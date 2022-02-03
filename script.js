@@ -6,6 +6,8 @@ function calcular(){
 
     var num = Number(numero.value)
     var pos = adicionados.indexOf(num)
+
+    document.getElementsByClassName("tabuada")[0].style.visibility = 'visible'
     
     if(num == 0 || num > 100){
         alert('Número inválido ')
